@@ -34,6 +34,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 50px;
+    text-decoration-line: underline;
     color: #f4f6f7;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -42,6 +43,7 @@ header h1 {
 header a {
     color: #389dfc;   
     text-decoration: none;
+    text-decoration-line: underline;
 
 }
 
@@ -97,7 +99,9 @@ header nav ul li a {
 
 .bio h2{
     font-size: 40px;
-    text-decoration-line: underline;
     padding-bottom: 30px;
 }
 
+.bio p{
+    font-size: 18px;
+}
