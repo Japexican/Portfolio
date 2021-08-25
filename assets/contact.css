@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+a:hover{
+    text-decoration: underline;
+    color: rgba(1, 68, 253, 0.8);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 body{
     background-image: url(images/contact-background.jpg);
     background-repeat: no-repeat;
@@ -12,7 +22,7 @@ body{
 
 }
 
-/* header  */
+/* header */
 header {
     position: -webkit-sticky;
     position: sticky;
@@ -66,6 +76,57 @@ header nav ul li a {
 }
 
 /* header end */
+
+/* Contact Section*/
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.title{
+    color: #1854c4;
+    margin-bottom: 35px;
+    padding: 30px 100px 20px 100px;    
+}
+
+.title h1{
+    font-size: 55px;
+    font-weight: bolder;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+.info p{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Contact Section End*/
 
 /*footer*/
 
