@@ -33,7 +33,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
     color: #f4f6f7;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -68,6 +68,36 @@ header nav ul li a {
 
 /* About Me*/
 
+.content{
+    display: flex;
+    justify-content: center;
+}
 
+.container{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.container img{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+    padding: 15px;
+}
+
+.bio{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(247, 247, 247,.8);
+}
+
+.bio h2{
+    font-size: 40px;
+    text-decoration-line: underline;
+    padding-bottom: 30px;
+}
 
