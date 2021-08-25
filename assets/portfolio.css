@@ -12,36 +12,35 @@ body{
 
 }
 
-/* header styling */
+/* header */
 header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding-top: 10px;
     padding-right: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("images/portfolio-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+    background-color: rgba(0, 0, 0,0.9);
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-decoration-line: underline;
     color: #f4f6f7;
-    margin: 0;
+    margin: 5px 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header a:hover{
+    color: #021bfa;
+}
 header a {
-    color: #389dfc;   
+    color: #fdfdfd;   
     text-decoration: none;
     text-decoration-line: underline;
 
@@ -63,7 +62,29 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
 }
 
-/* header styling end */
+/* header end */
+
+/*footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0,0.9);
+    border-top: 3px solid rgb(252, 252, 252);
+}
+
+footer h2{
+    margin: 0 30px;
+    text-align: end;
+    font-size: 15px;
+    color: #028afa;
+    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
+}
+
+/* footer end */
