@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgba(0, 0, 0,0.9);
 }
 
 header h1 {
@@ -36,10 +37,10 @@ header h1 {
 }
 
 header a:hover{
-    color: #f4f6f7;
+    color: #021bfa;
 }
 header a {
-    color: #028afa;   
+    color: #fdfdfd;   
     text-decoration: none;
     text-decoration-line: underline;
 
@@ -93,7 +94,7 @@ header nav ul li a {
 .bio{
     margin: 15px;
     padding: 20px;
-    background-color: rgb(247, 247, 247,.85);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 25px;
 }
 
@@ -116,12 +117,14 @@ footer {
     bottom: 0;
     width: 100%;
     margin: auto;
-    display: flex;
     padding: 10px;
-
+    background-color: rgba(0, 0, 0,0.9);
+    border-top: 3px solid rgb(252, 252, 252);
 }
 
 footer h2{
+    margin: 0 30px;
+    text-align: end;
     font-size: 15px;
     color: #028afa;
     text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
