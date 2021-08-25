@@ -19,29 +19,27 @@ header {
     top: 0;
     padding-top: 10px;
     padding-right: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("images/bio-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
     text-decoration-line: underline;
     color: #f4f6f7;
-    margin: 0;
+    margin: 5px 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header a:hover{
+    color: #f4f6f7;
+}
 header a {
-    color: #389dfc;   
+    color: #028afa;   
     text-decoration: none;
     text-decoration-line: underline;
 
@@ -63,7 +61,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
 }
 
 /* header styling end */
@@ -76,12 +74,13 @@ header nav ul li a {
 }
 
 .container{
+    
     display: flex;
-    width: 1000px;
+    width: 60%;
     height: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .container img{
@@ -94,7 +93,8 @@ header nav ul li a {
 .bio{
     margin: 15px;
     padding: 20px;
-    background-color: rgb(247, 247, 247,.8);
+    background-color: rgb(247, 247, 247,.85);
+    border-radius: 25px;
 }
 
 .bio h2{
@@ -103,5 +103,29 @@ header nav ul li a {
 }
 
 .bio p{
-    font-size: 18px;
+    font-size: 19px;
+    margin-bottom: 10px;
 }
+
+/* About Me end */
+
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+
+}
+
+footer h2{
+    font-size: 15px;
+    color: #028afa;
+    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
+}
+
+
+/* footer end */
