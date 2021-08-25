@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(images/bio-background.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("images/bio-background.jpg");
+    background-image: url();
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -65,9 +65,3 @@ header nav ul li a {
 }
 
 /* header styling end */
-
-/* About Me*/
-
-
-
-
