@@ -15,9 +15,6 @@ body{
 
 /* header styling */
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 10px;
