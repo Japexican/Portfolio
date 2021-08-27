@@ -14,33 +14,33 @@
             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./assets/portfolio.css" />
+        <link rel="stylesheet" href="./assets/style.css" />
 
         <title>Sebastian Doreste's Portfolio</title>
     </head>
 
-    <body>
+    <body class="portfolio">
         <!--nav bar-->
-        <header>
-            <h1>Sebastian Doreste</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="./index.html">About Me</a>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 text-white">Sebastian Doreste</span>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
                     </li>
-                    <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="./contact.html">Contact Me</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
                     </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        </nav>
         <!--nav bar end-->
         
         <main class="container mt-5">
-            <h1 class="text-center">Featured Project</h1>
+            <h1 class="text-center text-white text-decoration-underline">Featured Project</h1>
             <!--Featured Card-->
             <section  class="d-flex justify-content-evenly mt-5 mb-5">
                 <div class="card" style="width: 55rem">
@@ -59,7 +59,7 @@
                 </div>
             </section>
             <!--Featured Card End-->
-            <h2 class="text-center mt-5 mb-5">Other Projects</h2>
+            <h2 class="text-center mt-5 mb-5 text-white text-decoration-underline">Other Projects</h2>
             <!--Run Budy Card-->
             <section class="d-flex justify-content-evenly">
                 <div class="card" style="width: 25rem">
@@ -95,13 +95,6 @@
                 <!--Fan Page Card End-->
             </section>
         </main>
-        <!--footer-->
-        <footer>
-            <div>
-                <h2>&copy; 2021 Sebastian Doreste's Portfolio</h2>
-            </div>
-        </footer>
-        <!--footer end-->
 
         <!-- Bootstrap JS Bundle -->
         <script

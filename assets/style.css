@@ -3,78 +3,53 @@
     margin: 0;
 }
 
-body{
+/*Background Images*/
+
+.about-me{
     background-image: url(images/bio-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 80%;
     height: 100vh;
-
 }
 
+.contact-me{
+    background-image: url(images/contact-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 80%;
+    height: 100vh; 
+}
 
-/* About Me*/
+.portfolio{
+    background-image: url(images/portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 80%;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Background Images End*/
+
+
+/* About Me Styling*/
+
+.profile-pic{
+    width: 35%;
+    height: 40%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
 
 .content{
-    display: flex;
-    justify-content: center;
+    border-radius: 20px;
 }
 
-.container{
-    display: flex;
-    width: 60%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-}
+/* About Me Styling End*/
 
-.container img{
-    border-radius: 50%;
-    height: 350px;
-    width: 300px;
-    padding: 15px;
-}
+/*Contact Me Styling*/
 
-.bio{
-    margin: 15px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 25px;
-}
-
-.bio h2{
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
-.bio p{
-    font-size: 19px;
-    margin-bottom: 10px;
-}
-
-/* About Me end */
-
-/* footer */
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0,0.9);
-    border-top: 3px solid rgb(252, 252, 252);
-}
-
-footer h2{
-    margin: 0 30px;
-    text-align: end;
-    font-size: 15px;
-    color: #028afa;
-    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
-}
-
-
-/* footer end */
