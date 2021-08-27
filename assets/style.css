@@ -13,57 +13,6 @@ body{
 
 }
 
-/* header styling */
-header {
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: rgba(0, 0, 0,0.9);
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 35px;
-    text-decoration-line: underline;
-    color: #f4f6f7;
-    margin: 5px 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header a:hover{
-    color: #021bfa;
-}
-header a {
-    color: #fdfdfd;   
-    text-decoration: none;
-    text-decoration-line: underline;
-
-}
-
-header nav {
-    margin: 10px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0px 0px 15px rgba(1, 68, 253, 0.8);
-}
-
-/* header styling end */
 
 /* About Me*/
 
