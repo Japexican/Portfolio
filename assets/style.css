@@ -35,6 +35,15 @@
 
 /*Background Images End*/
 
+/*header & Footer*/
+
+.background{
+    background-color: black;
+}
+
+.background h3{
+    font-size: 15px;
+}
 
 /* About Me Styling*/
 
@@ -50,6 +59,3 @@
 }
 
 /* About Me Styling End*/
-
-/*Contact Me Styling*/
-
